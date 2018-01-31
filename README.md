@@ -1,32 +1,35 @@
+```
+ <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9788eb8978c35c5eade8371387c01724.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+```
+
+# 
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
-
 ## Contents
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
-
+* [Usage](#usage)
+* [Options](#options)
+  * [Sidebar menu](#sidebar-menu)
+  * [Sticky sidebar content](#sticky-sidebar-content)
+  * [Themes](#themes)
+  * [Reverse layout](#reverse-layout)
+* [Development](#development)
+* [Author](#author)
+* [License](#license)
 
 ## Usage
 
 Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
-
 ## Options
 
 Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
 
 ### Sidebar menu
 
@@ -39,8 +42,7 @@ title: About
 ---
 ```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
-
+**Why require a specific layout?** Jekyll will return _all_ pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is _Home_, we exclude the `index.html` page from this list by specifying the `page` layout.
 
 ### Sticky sidebar content
 
@@ -62,10 +64,9 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 </div>
 ```
 
-
 ### Themes
 
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme \(mostly applies to sidebar and links\).
 
 ![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
 
@@ -81,7 +82,7 @@ To use a theme, add anyone of the available theme classes to the `<body>` elemen
 </body>
 ```
 
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme \(they're only a few lines of CSS\), rename it, and change the provided colors.
 
 ### Reverse layout
 
@@ -95,24 +96,23 @@ Hyde's page orientation can be reversed with a single class.
 </body>
 ```
 
-
 ## Development
 
 Hyde has two branches, but only one is used for active development.
 
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
+* `master` for development.  **All pull requests should be submitted against **`master`**.**
+* `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 ## Author
 
 **Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
 
+* [https://github.com/mdo](https://github.com/mdo)
+* [https://twitter.com/mdo](https://twitter.com/mdo)
 
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
 
-<3
+&lt;3
+
